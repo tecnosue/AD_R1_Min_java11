@@ -55,6 +55,30 @@ public class Ficheros {
         for (String nombre : hijos) {
             System.out.println(" - " + nombre);
         }
+        // TO DO (alumno): si la ruta es un directorio, muestra también el
+        // número de ficheros y directorios que contiene.
+        int numFicheros = 0;
+        int numDirectorios = 0;
+        
+        File[] listaCompleta = dir.listFiles(); // Obtenemos la lista de ficheros/directorios
+
+        if (listaCompleta != null) {
+            for (File f : listaCompleta) {
+                if (f.isFile()) {
+                    numFicheros++; // Si es un fichero, incrementa el contador de ficheros
+                } else if (f.isDirectory()) {
+                    numDirectorios++; // Si es un directorio, incrementa el de directorios
+                }
+            }
+        }
+
+        // Imprimimos el resultado
+        System.out.println("-------------------------------------");
+        System.out.println("Total Ficheros: " + numFicheros);
+        System.out.println("Total Directorios: " + numDirectorios);
+        System.out.println("-------------------------------------");
+
+
 
         // (opcional) ejemplo de cálculo de tamaño agregado SOLO de ficheros del primer nivel
         long total = 0;
