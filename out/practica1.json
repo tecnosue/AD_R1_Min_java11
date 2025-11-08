@@ -1,0 +1,10 @@
+{
+  "escena": {
+    "dimensiones": [600, 400],
+    "figuras": [
+      {"rectangulo": {"x":"40","y":"40","width":"200","height":"140","stroke-width":"3","stroke":"#444444","fill":"#ffd7b5"}},
+      {"circulo": {"cx":"330","cy":"140","r":"80","stroke-width":"4","stroke":"#1a73e8","fill":"#cfe8ff"}},
+      {"linea": {"x1":"60","y1":"320","x2":"540","y2":"80","stroke-width":"5","stroke":"#ff6d00"}}
+    ]
+  }
+}

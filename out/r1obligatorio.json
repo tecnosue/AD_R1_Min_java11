@@ -1,0 +1,8 @@
+{
+  "escena": {
+    "dimensiones": [500, 400],
+    "figuras": [
+      {"circulo": {"cx":"200","cy":"100","r":"50","stroke-width":"3","stroke":"#1a73e8","fill":"none"}}
+    ]
+  }
+}

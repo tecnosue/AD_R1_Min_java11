@@ -1,0 +1,4 @@
+dimensiones 600 400
+rectangulo 40 40 200 140 #444444 fill=#ffd7b5 sw=3 fo=0.8 label=Contenedor_1
+circulo 330 140 80 #1a73e8 fill=#cfe8ff fo=0.6 sw=4 label=Sensor_A
+linea 60 320 540 80 #ff6d00 sw=5 so=0.9 label=Trayectoria

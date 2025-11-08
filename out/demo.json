@@ -1,0 +1,8 @@
+{
+  "escena": {
+    "dimensiones": [600, 400],
+    "figuras": [
+      {"linea": {"x1":"60","y1":"200","x2":"250","y2":"80","stroke-width":"2","stroke":"#ff6d00"}}
+    ]
+  }
+}

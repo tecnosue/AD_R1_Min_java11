@@ -1,0 +1,5 @@
+dimensiones 500
+rectangulo 10 10 400 #zzzzzz
+circulo 250 250 abc #aaaaaa
+linea 50 50 450  #aaaaaa
+desconocida 1 2 3 4 #ff00ff
