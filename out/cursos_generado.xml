@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cursos nivel="2º">
+    <modulo>
+        <nombre>Acceso a Datos</nombre>
+        <horas>240</horas>
+        <nota>8.4</nota>
+    </modulo>
+    <modulo>
+        <nombre>PSP</nombre>
+        <horas>140</horas>
+        <nota>7.0</nota>
+    </modulo>
+</cursos>

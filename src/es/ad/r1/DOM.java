@@ -105,6 +105,24 @@ public class DOM {
         modulo.appendChild(nota);
 
         // TO DO (alumno): añade aquí un segundo <modulo> con otros valores
+        // Segundo módulo
+        Element modulo2 = document.createElement("modulo");
+        root.appendChild(modulo2);
+
+        Element nombre2 = document.createElement("nombre");
+        nombre2.appendChild(document.createTextNode("PSP")); // Nombre: PSP
+        modulo2.appendChild(nombre2);
+
+        Element horas2 = document.createElement("horas");
+        horas2.appendChild(document.createTextNode("140")); // Horas: 140
+        modulo2.appendChild(horas2);
+
+        Element nota2 = document.createElement("nota");
+        nota2.appendChild(document.createTextNode("7.0")); // Nota: 7.0
+        modulo2.appendChild(nota2);
+
+
+       
 
         // 4) Guarda a fichero
         new File(new File(rutaSalida).getParent() == null ? "." : new File(rutaSalida).getParent()).mkdirs();
