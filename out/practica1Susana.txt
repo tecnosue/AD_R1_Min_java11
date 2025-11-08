@@ -1,0 +1,5 @@
+dimensiones 600 400
+rectangulo 40 40 200 140 #444444
+circulo 330 140 80 #1a73e8
+linea 60 320 540 80 #ff6d00
+linea 10 10 500 10 #FF0000
